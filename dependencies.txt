@@ -1,0 +1,5 @@
+backlight_control (aur)
+lain (pacman)
+freedesktop (pacman)
+amixer
+
