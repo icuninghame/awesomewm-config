@@ -1,5 +1,4 @@
 backlight_control (aur)
-lain (pacman)
-freedesktop (pacman)
-amixer
-
+lain-git (aur)
+awesome-freedesktop (aur)
+alsa-utils (pacman)

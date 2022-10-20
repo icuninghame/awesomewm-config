@@ -1,12 +1,13 @@
 # Awesome Window Manager Config
 
-My set of configuration files for Awesome WM, featuring a customizable cyberpunk theme with high-quality icons. 
+My set of configuration files and themes for Awesome WM, optimized for 4k displays. 
 
 
 ### Dependencies:
-* freedesktop (pacman)
-* lain (pacman)
-* backlight_control (AUR)
+* awesome-freedesktop (aur)
+* lain-git (aur)
+* backlight_control (aur) for laptop backlight control
+* alsa-utils (pacman) for volume control
 
 
 ### Installation:
@@ -15,4 +16,5 @@ My set of configuration files for Awesome WM, featuring a customizable cyberpunk
 
 ### Customization:
 * Functionality, keybinds, etc. can be customized by modifying ```rc.lua```
-* Theme colours and layout can be customized by modifying ```./themes/cyberpunk/theme.lua```, or you can create your own theme in ```./themes/``` and modify the ```themes{}``` and ```chosen_theme``` variables in ```rc.lua``` to switch between your custom themes.
+* Theme colours and layout can be customized by modifying ```./themes/*/theme.lua```
+* Modify the ```themes{}``` and ```chosen_theme``` variables in ```rc.lua``` to switch between different themes.
